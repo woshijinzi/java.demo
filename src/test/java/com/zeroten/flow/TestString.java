@@ -22,4 +22,5 @@ public class TestString {
         String str7= str6.intern();
         String str8= new String("hello").intern();
     }
+
 }
