@@ -2,6 +2,8 @@ package com.zeroten.flow;
 
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+
 public class String1 {
     @Test
     public void testString1() {
@@ -27,5 +29,16 @@ public class String1 {
     public void testString2() {
         String str="hello,\uD835\uDD5D\uD835\uDD60\uD835\uDD60\uD835\uDD5C";
         System.out.println(str);
+    }
+
+    @Test
+    public void testArray1() {
+        Integer[] arr1={1,2,3,4};
+        Integer[] arr2={5,6,7,8};
+        Arrays.asList(arr1).forEach(num -> System.out.println(num));
+        Arrays.asList(arr2).forEach(num -> System.out.println(num));
+        Integer[] arr3=Arrays.copyOf(arr1,1);
+        System.out.println(arr3);
+
     }
 }
