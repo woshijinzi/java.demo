@@ -6,7 +6,6 @@ public class IfElseTest {
 
     @Test
     public void testIfElse() {
-<<<<<<< HEAD
         int n1 =100;
         System.out.println(n1);
         {
@@ -34,8 +33,6 @@ public class IfElseTest {
         }
 
     }
-=======
     }
 
->>>>>>> b553459fd1b47787e5d231c8a32a2f03f0739824
-}
+
