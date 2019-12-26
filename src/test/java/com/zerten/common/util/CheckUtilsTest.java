@@ -9,5 +9,6 @@ public class CheckUtilsTest {
     @Test
     public void testIntEquals() {
         Assert.assertEquals(CheckUtils.equals(2,2),true);
+
     }
 }
